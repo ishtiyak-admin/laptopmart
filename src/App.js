@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import { Brand } from "./components/Brand";
+import Footer from "./components/Footer";
+import { Home } from "./components/Home";
+import { Navbar } from "./components/Navbar";
+import Alert from "./Alert";
 
 function App() {
+  const [alert, setAlert] = useState(null);
+
+  const showAlert = () => {
+    setAlert('Message on Whatsapp');
+
+    // Hide the alert after 1 second
+    setTimeout(() => {
+      setAlert(null);
+    }, 5000);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="bg-color">
+      <Navbar />
+      {alert && <Alert alert={alert} />}
+      <Home showAlert={showAlert}/>
+      <Brand />
+      <Footer />
     </div>
   );
 }
