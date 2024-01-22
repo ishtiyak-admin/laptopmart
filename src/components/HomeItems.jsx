@@ -1,10 +1,11 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 export const HomeItems = ({ item ,showAlert}) => {
+  const navigate  = useNavigate()
   
   const handleAlert = () => {
-    showAlert()
-
+    navigate(`/product/${item?.id}`)
 }
   return (
 
