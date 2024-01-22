@@ -4,8 +4,39 @@ import { HomeItems } from './HomeItems'
 export const Home = ({showAlert}) => {
     const item = [
         {
+            "id": "09",
+            "laptop_name": "Refurbished APPLE MacBook Pro 1707 ",
+            "image": "images/Apple/Macbook pro/1707/20240120-224328_230X125.jpg",
+            "specifications": "Specifications: Intel Core i7, 16 GB/ 512 SSD/ Mac OS/ 4 GB Graphics, 15.6 inch , 1920x1080",
+            "features": "Features: Touch Bar, Four Thunderbolt , Long Battery Life Colour Grey ",
+            "brand": "Brand: Dell",
+            "rating": {
+                "stars": 4.3,
+                "count": 50
+            },
+            "original_price": 54000,
+            "current_price": 44000,
+            //"discount_percentage": 0
+        },
+        // {
+        //     "id": "10",
+        //     "laptop_name": " Refurbished APPLE MacBook Pro",
+        //     "image": "images/apple-macbook-pro-a1989-500x500.webp",
+        //     "specifications": "Specifications: Intel Core i9 9th Gen, 16 GB/512 SSD/Mac OS /4 GB Graphics, 1920x1080",
+        //     "features": "Features: Touch Bar, Four Thunderbolt , Long Battery Life",
+        //     "brand": "Brand: Dell",
+        //     "rating": {
+        //         "stars": 4.5,
+        //         "count": 120
+        //     },
+        //     "original_price": 79000,
+        //     "current_price": 74000,
+        //     //"discount_percentage": 35
+        // },
+
+        {
             "id": "01",
-            "laptop_name": "APPLE MacBook Pro",
+            "laptop_name": "Refurbished APPLE MacBook Pro 1909 ",
             "image": "images/apple-macbook-pro-a1989-500x500.webp",
             "specifications": "Specifications: Intel Core i9 9th Gen, 16 GB/512 SSD/Mac OS /4 GB Graphics, 1920x1080",
             "features": "Features: Touch Bar, Four Thunderbolt , Long Battery Life",
@@ -15,12 +46,12 @@ export const Home = ({showAlert}) => {
                 "count": 120
             },
             "original_price": 79000,
-            "current_price": 74000,
+            "current_price": 72000,
             //"discount_percentage": 35
         },
         {
             "id": "005",
-            "laptop_name": "Dell E7450",
+            "laptop_name": " Refurbished Dell E7450",
             "image": "images/e7450.jpg",
             "specifications": "Specifications: Intel Core i7, 5th Gen, 8GB RAM, 256GB SSD, 14 inches, 1920x1080",
             "features": "Features: Backlit Keyboard, Long Battery Life",
@@ -35,7 +66,7 @@ export const Home = ({showAlert}) => {
         },
         {
             "id": "002",
-            "laptop_name": "HP 830 G6",
+            "laptop_name": " Refurbished HP 830 G6",
             "image": "images/img2.webp",
             "specifications": "Specifications: i5 8th Gen, 8GB RAM, 256GB SSD, 13.5 inches, 2560x1440",
             "features": "Features: Thin and Lightweight, Powerful Graphics",
@@ -50,7 +81,7 @@ export const Home = ({showAlert}) => {
         },
         {
             "id": "003",
-            "laptop_name": "DELL E5420",
+            "laptop_name": " Refurbished DELL E5420",
             "image": "images/img5.png",
             "specifications": "Specifications: Intel Core i5 11th gen, 16GB RAM, 512 GB SSD, 14 inches, 3840x2160",
             "features": "Features: NanoEdge Display, Harman Kardon Audio, Gaming Graphics",
@@ -65,7 +96,7 @@ export const Home = ({showAlert}) => {
         },
         {
             "id": "004",
-            "laptop_name": "Dell E7400 ",
+            "laptop_name": " Refurbished Dell E7400 ",
             "image": "images/img1.png",
             "specifications": "Specifications: Intel Core i7 8th gen , 16 GB RAM, 512 GB SSD, 14 inches Black  , 1920x1080",
             "features": "Features: Backlit Keyboard, Fingerprint Sensor, Long Battery Life",
@@ -80,7 +111,7 @@ export const Home = ({showAlert}) => {
         },
         {
             "id": "001",
-            "laptop_name": "Dell 5400",
+            "laptop_name": "Refurbished Dell 5400",
             "image": "images/img1.png",
             "specifications": "Specifications: Intel Core i5, 8GB RAM, 256GB SSD, 14 inch Touch Screen, 1920x1080",
             "features": "Features: Backlit Keyboard, Fingerprint Sensor, Long Battery Life",
@@ -95,7 +126,7 @@ export const Home = ({showAlert}) => {
         },
         {
             "id": "006",
-            "laptop_name": "Dell 7490",
+            "laptop_name": "Refurbished Dell 7490",
             "image": "https://m.media-amazon.com/images/I/81WX6nVs8TL._AC_UF1000,1000_QL80_.jpg",
             "specifications": "Specifications: Intel Core i5 8th Gen, 8GB RAM, 256GB SSD, 14 inch  , 1920x1080",
             "features": "Features: Non Touch Full HD Display,  Audio, Backlit Keyboard",
@@ -110,7 +141,7 @@ export const Home = ({showAlert}) => {
         },
         {
             "id": "007",
-            "laptop_name": "HP ELITEBOOK X360 1030 G4",
+            "laptop_name": "Refurbished HP ELITEBOOK X360 1030 G4",
             "image": "https://m.media-amazon.com/images/I/41mC0liN4lL._SX679_.jpg",
             "specifications": "Specifications: Intel CORE I7 8TH/16GB/512GB SSD/WEBCAM/13.3 Touch",
             "features": "Features: Full HD Display, Acer TrueHarmony Audio, Backlit Keyboard",
